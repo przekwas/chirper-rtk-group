@@ -12,7 +12,10 @@ const ChirpsList = ({ chirps }) => {
 				</div>
 			))}
 		</section>
+		
 	);
+
+	console.log("we love luke");
 };
 
 export default connect(mapStateToProps)(ChirpsList);
