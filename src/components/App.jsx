@@ -3,9 +3,6 @@ import AddChirp from '../features/chirps/AddChirp';
 import ChirpsList from '../features/chirps/ChirpsList';
 
 const App = () => {
-
-    console.log('test feature?')
-
 	return (
 		<main className="container">
 			<section className="row">
